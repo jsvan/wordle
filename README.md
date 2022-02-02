@@ -5,7 +5,8 @@ Dataset: english.txt: A list of wordle words. Found online from a different git 
 
 General alg: Command line based, rule based, narrow down possible words. Remaining words are scored and ranked by a few different methods. When word scores are similar, word frequency is used as the ranking heuristic.
 
-Performance: 85-90% win rate, avg 4.33 attempts / win with my uniformly at random tests, but may perform better in real life. 
+Performance: 85-90% win rate, avg 4.33 attempts / win with my uniformly at random tests, but may perform better in real life. If I restrict the guess/answer set only to the leaked wordle words, the solution set shrinks from ~12000 to ~2000 and I get 99.5% accuracy and an avg of 3.6 guesses/win (1000 trials).
+
 
 Files: 
   wordle.py -- general game. 
