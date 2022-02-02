@@ -5,7 +5,7 @@ Dataset: english.txt: A list of wordle words. Found online from a different git 
 
 General alg: Command line based, rule based, narrow down possible words. Remaining words are scored and ranked by a few different methods. When word scores are similar, word frequency is used as the ranking heuristic.
 
-Performance: 85-90% win rate, avg 4.33 attempts / win.
+Performance: 85-90% win rate, avg 4.33 attempts / win with my uniformly at random tests, but may perform better in real life. 
 
 Files: 
   wordle.py -- general game. 
