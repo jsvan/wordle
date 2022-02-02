@@ -1,6 +1,7 @@
 # wordle
 
-Dataset: found online from a different git repo that apprently got it from wordle source code.
+Dataset: english.txt: A list of wordle words. Found online from a different git repo that apprently got it from wordle source code. 
+  freq.txt: wikipedia word frequency data mapped onto wordle vocab. 
 
 General alg: rule based, narrow down possible words. Remaining words are scored and ranked by a few different methods. When word scores are similar, word frequency is used as the ranking heuristic.
 
